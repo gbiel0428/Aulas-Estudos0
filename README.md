@@ -27,4 +27,6 @@ cd nome-do-repositorio
 5) Abrir o VSCode pelo terminal:
 ```
 code .
+
 ```
+#durante a aula
