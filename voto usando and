@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+voto_obrigadorio = 18 and 65
+voto_nao_obrigadorio = 1 and 17
+
+idade = float(input("Digite sua idade: "))
+
+if idade >= 18 and idade <= 65:
+    print("Voto obrigadorio. ")
+else:
+    print("Voto opcional. ")
+    
