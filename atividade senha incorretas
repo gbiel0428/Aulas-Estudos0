@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+Login_salvo = "Marta"
+senha_salva = "1234"
+
+login = input("Digite seu login: ")
+senha = input("Digite sua senha: ")
+
+if login == Login_salvo and senha == senha_salva:
+    print("Bem Vindo! ")
+else:
+    print("login ou senha incorretos. ")
