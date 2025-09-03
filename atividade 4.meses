@@ -1,0 +1,35 @@
+import os
+os.system
+
+print("Meses do ANO")
+
+mes = float(input("Escolha o seu mês: "))
+     
+match mes:
+    case 1:
+        print("SEU MÊS FOI janeiro")
+    case 2:
+        print("SEU MÊS FOI Fevereiro")
+    case 3:
+        print("SEU MÊS FOI Março")
+    case 4:
+        print("SEU MÊS FOI  Abril")
+    case 5:
+        print("SEU MÊS FOI  Maio")
+    case 6:
+        print("SEU MÊS FOI  junho")
+    case 7:
+        print("SEU MÊS FOI  Julho")
+    case 8:
+        print("SEU MÊS FOI  Agosto")
+    case 9:
+        print("SEU MÊS FOI  Setembro")
+    case 10:
+        print("SEU MÊS FOI  Outubro")
+    case 11:
+        print("SEU MÊS FOI  Novembro")
+    case 12:
+        print("SEU MÊS FOI  Dezembro")
+    case _: 
+        print("MÊS INVALIDO")
+    
